@@ -43,3 +43,11 @@ $$\text{OEE} = \text{Availability} \times \text{Performance} \times \text{Qualit
   Machine_Quality = 
   VAR GoodUnits = SUM(Fact_OEE_Production[Total_Units_Produced]) - SUM(Fact_OEE_Production[Defective_Units])
   RETURN DIVIDE(GoodUnits, SUM(Fact_OEE_Production[Total_Units_Produced]), 0)
+
+## Enterprise Data Warehouse Analytics (SQL Audit Engine)
+
+To complement the Power BI visual semantic layer, this framework incorporates production-grade SQL optimization scripts deployed directly into the simulated enterprise data layer (Snowflake / PostgreSQL standard). 
+
+### Real-World Analytical Use Cases Implemented:
+1. **The Plant Pareto Bottleneck Analysis**: Aggregates component-specific failure frequencies alongside total operational minutes lost. This highlights the exact subsystem components (e.g., *Welding Pneumatic Arms*) eating away at corporate profit margins.
+2. **Chronological Failure Partitioning**: Deploys advanced SQL Window Functions (`ROW_NUMBER() OVER (PARTITION BY...)`) to isolate, rank, and extract the single most severe downtime incident for every machine asset across the time series to streamline Mean Time To Repair (MTTR) audits.
