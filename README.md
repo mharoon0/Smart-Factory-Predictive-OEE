@@ -1,12 +1,12 @@
 # Smart Factory: Predictive OEE & Manufacturing Analytics Pipeline
 ## Enterprise Business Intelligence Case Study
 
-[![Power BI](https://img.shields.co/badge/Platform-Power%20BI%20Desktop-Yellow?logo=microsoftpowerbi&logoColor=white)](https://powerbi.microsoft.com/)
+[![Power BI](https://images.seeklogo.com/logo-png/40/1/power-bi-microsoft-logo-png_seeklogo-400711.png)](https://powerbi.microsoft.com/)
 
 ### 🔗 Portfolio Assets
 * **Dashboard:** View Static Captures in `/assets`
 * **Production Dataset Source:** `data/SmartFactory_OEE_Data.xlsx`
-* **Relational Database Blueprint:** `production_model/SmartFactory_OEE_Pipeline.pbix`
+* **Relational Database Blueprint:** `model/SmartFactory_OEE_Model.pbix`
 
 ---
 
